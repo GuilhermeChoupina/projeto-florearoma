@@ -28,15 +28,15 @@ img {
     margin: 0 auto;
 }
 
-.container h1 img {
+.header-container img {
     border-radius: 50%;
     box-shadow: none;
-    width: 200px;
+    width: 150px;
     height: auto;
 }
 
 .page-header {
-    padding: 20px;
+    padding: 20px 0px;
     background: #92A65C;
 }
 
@@ -44,7 +44,6 @@ img {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 70px;
 }
 
 .nav-main {
@@ -60,9 +59,9 @@ img {
 .menu-link {
     color: white;
     text-decoration: none;
-    font-size: 30px;
+    font-size: 25px;
     font-family: 'Courier New', Courier, monospace;
-    padding: 5px 10px;
+    padding: 10px 20px;
     border-radius: 20px;
     cursor: pointer;
 }
@@ -71,7 +70,7 @@ img {
 .menu-link:focus-visible {
     color: #475f39;
     background-color: #fbf5dd;
-    padding: 5px 10px;
+    padding: 10px 20px;
     transition: .8s;
 }
 
